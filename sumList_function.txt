@@ -1,0 +1,20 @@
+# sumList_function.py
+
+def sumList(nums):
+    count = 0
+    for num in nums:
+        count += num
+    return count
+
+def test():
+    list1 = list(range(1,11))
+    sum = sumList(list1)
+    print(f"The sum is {sum}")
+    
+    print()
+
+    list2 = [-1, 0, 1]
+    sum = sumList(list2)
+    print(f"The sum is {sum}")
+
+test()
